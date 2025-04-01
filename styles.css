@@ -1,7 +1,7 @@
-/*body {*/
-/*    max-width: 700px;*/
-/*    margin: 0 auto;*/
-/*}*/
+.bode {
+    margin: 0 0;
+    padding: 0;
+}
 
 h1 {
     margin-top: 55px;
@@ -10,6 +10,11 @@ h1 {
     color: rgba(0, 0, 0, 0.84);
     text-align: left;
     line-height: 39px;
+}
+
+.main {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .Main {
@@ -37,12 +42,20 @@ p {
 }
 
 nav {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size: 24px;
     color: #333333;
-    text-align: left;
     line-height: 36px;
-    margin: 0;
+    background-color: darkgrey;
+    border: black solid 2px;
+}
+
+.icon {
+    width: 97px;
+    margin: 10px auto 10px 38px;
 }
 
 ul {
